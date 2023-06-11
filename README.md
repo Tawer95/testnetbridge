@@ -27,6 +27,7 @@
 **AMOUNT_MAX** - max значение в ETH, сколько свапать через testnetbridge
 
 **ARBITRUM_DO** - 'YES'/'NO' - делать или не делать эту сеть
+
 **OPTIMISM_DO** - 'YES'/'NO' - делать или не делать эту сеть
 
 
