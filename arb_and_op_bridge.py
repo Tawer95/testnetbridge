@@ -18,6 +18,7 @@ def arbitrum(account, value_transfer):
         print("Waiting for the bridge to complete...")
         time.sleep(15)
         cprint(f"Transaction: https://arbiscan.io/tx/{arbitrum_to_goerli_txs_hash.hex()}", 'green')
+        cprint('bridge complete', 'green')
     except Exception as err:
         cprint(err, 'red')
     
@@ -34,5 +35,6 @@ def optimism(account, value_transfer):
         print("Waiting for the bridge to complete...")
         time.sleep(15)
         cprint(f"Transaction: https://optimistic.etherscan.io//tx/{optimism_to_goerli_txs_hash.hex()}", 'green')
+        cprint('bridge complete', 'green')
     except Exception as err:
         cprint(err, 'red')
